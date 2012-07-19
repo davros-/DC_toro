@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android-review.googlesource.com/"
+           fetch="https://android-review.googlesource.com/" />
   <remote name="davros"
            fetch="git://github.com/davros-/" />           
   <default revision="refs/tags/android-4.1.1_r1"

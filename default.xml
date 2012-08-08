@@ -5,7 +5,7 @@
            fetch="https://android-review.googlesource.com/" />
   <remote name="davros"
            fetch="git://github.com/davros-/" />           
-  <default revision="refs/tags/android-4.1.1_r3"
+  <default revision="refs/tags/android-4.1.1_r4"
            remote="aosp"
            sync-j="4" />
 

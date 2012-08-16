@@ -1,7 +1,54 @@
-HERE we goooooo
+davros
 
+Visit http://www.forums.droidconcepts.com
+
+Follow http://twitter.com/davros
+
+To compile Droid Concepts yourself follow instructions below
+
+Getting Started
+
+Please see the Android source page for building instructions. Once you follow those instructions you can download the Droid Concepts source.
+
+First make a directory called DC and cd to that directory:
+
+mkdir ~/DC
+cd ~/DC
+
+To initialize your local repository using our trees, use the following command:
+
+* for edited option rich Droid Concepts source 
+
+repo init -u git://github.com/davros-/DC_toro.git -b jb
+
+* for a stock jelly bean Droid Concepts source
 
 repo init -u git://github.com/davros-/DC_toro.git -b master
+
+
+Then to sync up:
+
+repo sync
+
+To start a compile:
+
+. build/envsetup.sh
+
+Choose the device:
+
+lunch
+
+Chose a combo
+
+9
+
+Select the number of your target build then
+
+make -j4 otapackage
+
+You compile has now begun. See Android Source page for decided one what -j number to use
+
+
 
 
 

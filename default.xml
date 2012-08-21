@@ -4,7 +4,10 @@
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
   <remote name="davros"
-           fetch="git://github.com/davros-/" />           
+           fetch="git://github.com/davros-/" />
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/"
+           review="review.cyanogenmod.com" />           
   <default revision="refs/tags/android-4.1.1_r4"
            remote="aosp"
            sync-j="4" />
@@ -306,5 +309,10 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/Droid_Concepts" name="vendor_toro" remote="davros" revision="master" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="davros" revision="master" />
+
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
 </manifest>

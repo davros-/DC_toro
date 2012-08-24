@@ -187,7 +187,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="davros" revision="jb" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="davros" revision="jb-th" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -307,7 +307,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
-  <project path="vendor/Droid_Concepts" name="vendor_toro" remote="davros" revision="master" />
+  <project path="vendor/Droid_Concepts" name="vendor_toro" remote="davros" revision="jb-th" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="davros" revision="master" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />

@@ -39,7 +39,7 @@
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="davros" revision="master" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" />
+  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="davros" revision="jb" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -314,5 +314,6 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="davros" revision="jellybean" />
 
 </manifest>
